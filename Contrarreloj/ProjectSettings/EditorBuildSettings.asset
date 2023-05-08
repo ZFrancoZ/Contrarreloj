@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: 219efc6dcef31954f99a426cb65db832
+  - enabled: 1
+    path: Assets/Scenes/Mostrar_DB.unity
+    guid: 7e6bc6f5b8e82bc4f838691e4063d443
+  - enabled: 1
+    path: Assets/Scenes/Pistas/CoastalTrackDisplayScene.unity
+    guid: 8faa94a666353d8439a2eae7a5b9c8b2
+  - enabled: 1
+    path: Assets/Scenes/Pistas/F1TrackDisplayScene.unity
+    guid: fec2140c9cb8e054b8d0e3221bbfa106
+  - enabled: 1
+    path: Assets/Scenes/Pistas/F8DisplayScene.unity
+    guid: 2a12b52a4179de04b88f34b872c97479
+  - enabled: 1
+    path: Assets/Scenes/Pistas/OvalDisplayScene.unity
+    guid: d0938f32161abac469f04078d8675fc6
+  m_configObjects: {}
