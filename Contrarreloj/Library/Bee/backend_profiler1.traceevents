@@ -1,0 +1,580 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1667330023344444, "dur":686, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330023345137, "dur":63, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667330023345232, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667330023345248, "dur":374, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667330023345646, "dur":562, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330023346208, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025053278, "dur":763, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054041, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054071, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054076, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054084, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054086, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054092, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054093, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054101, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054103, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054111, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054113, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054121, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054123, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054132, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054134, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054140, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054142, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054147, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054148, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054153, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054155, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054160, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054162, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054166, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054176, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025054199, "dur":1066, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667330023345733, "dur":480, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330023346214, "dur":1474, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330023347697, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667330023347701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330023350106, "dur":212, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667330023350320, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667330023350343, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330023350467, "dur":3976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667330023354444, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1667330023354491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330023354932, "dur":13170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1667330023368113, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667330023368137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330023368152, "dur":414331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667330023782499, "dur":16419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330023798923, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330023798931, "dur":523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330023799468, "dur":30533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330023830007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330023830018, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330023830973, "dur":21577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330023852553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330023852559, "dur":388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330023852955, "dur":32047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330023885019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330023885024, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330023885761, "dur":17754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330023903519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330023903526, "dur":10254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330023913796, "dur":19415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330023933214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330023933219, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330023934231, "dur":49905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330023984140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330023984161, "dur":144797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330024128970, "dur":57207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330024186181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330024186189, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330024187171, "dur":28676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330024215883, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330024215902, "dur":563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330024216477, "dur":144068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330024360549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330024360557, "dur":189733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667330024550301, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667330024550318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330024550322, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667330024551798, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667330024551815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667330024551821, "dur":16942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667330024568773, "dur":484508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023345762, "dur":459, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023346222, "dur":1476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023347698, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667330023347770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023351241, "dur":26462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667330023377713, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667330023377737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023377743, "dur":178952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667330023556706, "dur":19833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas.exe" }}
+,{ "pid":12345, "tid":2, "ts":1667330023576543, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023576553, "dur":51255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas.exe" }}
+,{ "pid":12345, "tid":2, "ts":1667330023627818, "dur":14711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023642534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023642999, "dur":430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023643438, "dur":27043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023670484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023670490, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023671867, "dur":13032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023684903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023684910, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023685353, "dur":54897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023740255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023740263, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023740908, "dur":28519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023769431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023769438, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023770132, "dur":15042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023785178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023785185, "dur":529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023785727, "dur":17492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023803223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023803230, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023803780, "dur":29656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023833439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023833444, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023834187, "dur":60640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023894831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023894837, "dur":504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023895349, "dur":23795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023919147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023919153, "dur":456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023919616, "dur":54110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330023973730, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330023973741, "dur":145328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330024119080, "dur":34602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330024153686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330024153694, "dur":16504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330024170208, "dur":133985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330024304197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330024304205, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330024305718, "dur":154031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330024459752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330024459757, "dur":91261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667330024551029, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1667330024551042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667330024551047, "dur":6264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1667330024557607, "dur":495666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330023345754, "dur":463, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330023346217, "dur":1479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330023347697, "dur":418528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1667330023766227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330023766255, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1667330023766723, "dur":33654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330023800381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330023800387, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330023801213, "dur":17717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330023818937, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330023818948, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330023819927, "dur":34402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330023854331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330023854336, "dur":638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330023854987, "dur":27637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330023882628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330023882635, "dur":528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330023883171, "dur":72127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330023955301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330023955308, "dur":514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330023955832, "dur":68838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330024024674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330024024681, "dur":106375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330024131070, "dur":44541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330024175614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330024175621, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330024176275, "dur":61210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330024237490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330024237498, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330024238073, "dur":113510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330024351587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330024351594, "dur":198241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667330024549853, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667330024549870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330024549877, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667330024551448, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667330024551465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330024551470, "dur":2992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667330024554477, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1667330024554493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330024554498, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1667330024555755, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1667330024555770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330024555775, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1667330024556882, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1667330024556902, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667330024556907, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1667330024557996, "dur":495290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330023345784, "dur":441, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330023346225, "dur":1484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330023347709, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667330023348178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330023350527, "dur":277149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667330023627693, "dur":42010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023669710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330023669720, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023670396, "dur":23075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023693474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330023693479, "dur":428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023693915, "dur":15714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023709632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330023709637, "dur":385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023710030, "dur":33223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023743257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330023743265, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023743873, "dur":105604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023849481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330023849487, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023850541, "dur":32040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023882585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330023882592, "dur":577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023883181, "dur":26770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023909954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330023909960, "dur":4082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023914056, "dur":62632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330023976692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330023976699, "dur":152266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330024128984, "dur":72693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330024201683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024201690, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330024202992, "dur":24337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330024227333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024227339, "dur":3960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330024231311, "dur":35649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330024266966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024266975, "dur":603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330024267590, "dur":82780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330024350374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024350383, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667330024351279, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1667330024351379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024352264, "dur":45405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1667330024397684, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1667330024397696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024397710, "dur":9413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1667330024407134, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667330024407146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024407151, "dur":142689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667330024549856, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667330024549872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024549878, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667330024551498, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1667330024551515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024551521, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1667330024552681, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667330024552699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024552703, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667330024554166, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667330024554182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024554186, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667330024555010, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667330024555027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024555032, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667330024555761, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667330024555776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024555781, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667330024556633, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1667330024556648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024556653, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1667330024557531, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1667330024557632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667330024557637, "dur":527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1667330024558176, "dur":495114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667330023345811, "dur":418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667330023346229, "dur":1465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667330023347698, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1667330023347764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667330023350837, "dur":30738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1667330023381585, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1667330023381606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667330023381610, "dur":395283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1667330023776911, "dur":42292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330023819207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667330023819214, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330023820240, "dur":18146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330023838391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667330023838399, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330023839103, "dur":59153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330023898260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667330023898266, "dur":504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330023898779, "dur":92629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330023991412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667330023991418, "dur":139548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330024130987, "dur":28990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330024159981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667330024159989, "dur":10176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330024170177, "dur":74104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330024244285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667330024244293, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330024244959, "dur":93563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330024338526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667330024338533, "dur":10548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330024349096, "dur":352745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Plugins/x86_64/sqlite3.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330024701846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667330024702417, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Plugins/x86_64/sqlite3.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667330024703866, "dur":349410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023345838, "dur":395, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023346233, "dur":1460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023347697, "dur":24127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1667330023371828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023371957, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1667330023372636, "dur":78138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1667330023450778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023450787, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1667330023452381, "dur":176508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023628893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023628918, "dur":3743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023632672, "dur":16696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023649372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023649397, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023649907, "dur":27382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023677292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023677313, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023677999, "dur":12607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023690609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023690615, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023691383, "dur":13802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023705190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023705197, "dur":515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023705723, "dur":13359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023719087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023719096, "dur":552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023719659, "dur":39918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023759580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023759586, "dur":2686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023762285, "dur":24077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023786366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023786391, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023786887, "dur":15422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023802313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023802319, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023803085, "dur":15983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023819073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023819080, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023820128, "dur":27079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023847210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023847215, "dur":427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023847653, "dur":57746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023905402, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023905412, "dur":8497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023913925, "dur":31868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023945798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330023945805, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330023946745, "dur":127308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330024074056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330024074063, "dur":56962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330024131046, "dur":50514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330024181564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330024181571, "dur":516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330024182098, "dur":66941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330024249059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330024249066, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330024250584, "dur":86224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330024336816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330024336842, "dur":11996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330024348855, "dur":58047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330024406905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330024406916, "dur":143614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667330024550547, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1667330024550564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330024550570, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1667330024552724, "dur":673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1667330024553401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330024553407, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1667330024555228, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1667330024555247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667330024555252, "dur":2947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1667330024558209, "dur":495060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023345852, "dur":384, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023346236, "dur":1463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023347700, "dur":103069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1667330023450773, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023450788, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1667330023452201, "dur":107053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023559258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023559395, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023560190, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1667330023560224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023560330, "dur":115784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1667330023676134, "dur":19740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023695878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023695885, "dur":462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023696355, "dur":11207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023707585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023707591, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023708241, "dur":12589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023720834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023720840, "dur":426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023721276, "dur":11240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023732520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023732527, "dur":730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023733266, "dur":21177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023754449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023754457, "dur":503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023754969, "dur":104198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023859184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023859189, "dur":470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023859666, "dur":21603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023881274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023881284, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023882315, "dur":94790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330023977109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330023977114, "dur":153820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330024130949, "dur":40705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330024171657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330024171663, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330024172155, "dur":119057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330024291218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330024291229, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330024292328, "dur":338292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330024630625, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667330024630636, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667330024632853, "dur":420421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667330023345876, "dur":364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667330023346240, "dur":1460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667330023347700, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1667330023347769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667330023351375, "dur":188209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1667330023539596, "dur":224786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1667330023764385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667330023764392, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1667330023765853, "dur":74330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330023840186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667330023840193, "dur":642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330023840849, "dur":48978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330023889831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667330023889837, "dur":489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330023890337, "dur":41313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330023931655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667330023931663, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330023932833, "dur":31161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330023964000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667330023964009, "dur":148230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330024112253, "dur":27760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330024140016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667330024140024, "dur":30018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330024170061, "dur":51969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330024222034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667330024222040, "dur":9105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330024231157, "dur":132520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330024363680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667330024363687, "dur":189072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667330024552772, "dur":8059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1667330024560834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667330024560840, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1667330024561708, "dur":491572, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330023345898, "dur":345, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330023346243, "dur":1458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330023347706, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1667330023347761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330023350611, "dur":12452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1667330023363073, "dur":416587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1667330023779663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330023779672, "dur":479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1667330023780163, "dur":25576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330023805765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330023805772, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330023807047, "dur":39647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330023846698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330023846706, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330023847307, "dur":34440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330023881751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330023881758, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330023882429, "dur":86888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330023969320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330023969327, "dur":161532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330024130875, "dur":57700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330024188579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330024188587, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330024191384, "dur":77376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330024268764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330024268771, "dur":552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330024269336, "dur":30337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330024299677, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330024299685, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330024300470, "dur":146078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330024446551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330024446557, "dur":104008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667330024550579, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":9, "ts":1667330024550595, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330024550600, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":9, "ts":1667330024552675, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1667330024552691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330024552695, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1667330024554445, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level5.resS" }}
+,{ "pid":12345, "tid":9, "ts":1667330024554460, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330024554465, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level5.resS" }}
+,{ "pid":12345, "tid":9, "ts":1667330024555640, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level3.resS" }}
+,{ "pid":12345, "tid":9, "ts":1667330024555654, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330024555658, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level3.resS" }}
+,{ "pid":12345, "tid":9, "ts":1667330024556417, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1667330024556457, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330024556461, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1667330024557455, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1667330024557469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667330024557473, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1667330024558048, "dur":495222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667330023345916, "dur":331, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667330023346247, "dur":1455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667330023347703, "dur":417228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1667330023764934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667330023764951, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1667330023765453, "dur":35222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667330023800679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667330023800686, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667330023801600, "dur":18148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667330023819752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667330023819759, "dur":590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667330023820366, "dur":20342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667330023840712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667330023840719, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667330023842029, "dur":39239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667330023881275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667330023881284, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667330023882263, "dur":150322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667330024032590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667330024032595, "dur":99178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667330024131785, "dur":254200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667330024385989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667330024385996, "dur":167882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667330024553899, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1667330024553915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667330024553920, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1667330024556894, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1667330024556910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667330024556915, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1667330024557899, "dur":495373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330023345933, "dur":317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330023346250, "dur":1456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330023347706, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1667330023347787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330023351567, "dur":99568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1667330023451147, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1667330023451185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330023451189, "dur":309567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1667330023760772, "dur":17810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330023778585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330023778594, "dur":498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330023779102, "dur":30002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330023809108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330023809116, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330023809670, "dur":20331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330023830007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330023830018, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330023830773, "dur":79181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330023909957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330023909962, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330023913988, "dur":37756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330023951748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330023951756, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330023952266, "dur":5494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330023957764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330023957770, "dur":507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330023958289, "dur":56278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330024014574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330024014583, "dur":116530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330024131126, "dur":88429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330024219560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330024219567, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330024220421, "dur":162257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330024382682, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330024382694, "dur":169506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667330024552215, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1667330024552233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667330024552654, "dur":8004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/TP Plataformas_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1667330024560672, "dur":492611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667330023345969, "dur":284, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667330023346253, "dur":1455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667330023347708, "dur":170642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1667330023518354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667330023518370, "dur":452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1667330023518832, "dur":1520189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667330025039026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667330025039034, "dur":14178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/FACULTAD/Tercer Ao/6TO SEMESTRE/Plataformas/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667330025053229, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1667330025053245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667330025056364, "dur":1484, "ph":"X", "name": "ProfilerWriteOutput" }
+,
